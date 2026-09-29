@@ -57,3 +57,7 @@ if(!matchMedia("(prefers-reduced-motion: reduce)").matches)auto();});
     if(href&&href.charAt(0)==="#"&&href.length>1&&!e.metaKey&&!e.ctrlKey){e.preventDefault();setTimeout(function(){location.hash=href;},330);}
   },true);
 })();
+
+
+(function(){var r=document.getElementById("ba-slider");if(!r)return;var i=r.querySelector("input");
+function set(){r.style.setProperty("--pos",i.value+"%");}i.addEventListener("input",set);set();})();

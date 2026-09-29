@@ -32,6 +32,7 @@
 <li><a href="a-propos.html">À propos</a></li>
 <li><a aria-current="page" href="projets.html">Projets</a></li>
 <li><a href="contact.html">Contact</a></li>
+<li><a class="navdevis" href="contact.html">Prendre rendez-vous</a></li>
 </ul>
 </div>
 </nav>
@@ -47,11 +48,15 @@
 .ba-ap{background:var(--pc);color:var(--pon)}
 .ba figcaption{font-size:14px;color:var(--mute);margin-top:10px}
 @media(max-width:820px){.ba{grid-template-columns:1fr}}</style>
-<div class="ba-intro"><h2>Avant / Après</h2><p>À gauche, le site actuel du client. À droite, ma maquette de la nouvelle page d'accueil : devis en 1 minute avec choix particulier / professionnel, arguments clés visibles dès l'arrivée et texte optimisé pour le mot-clé « location camion avec chauffeur ».</p></div>
-<div class="ba">
-<div><span class="ba-lab ba-av">AVANT · SITE ACTUEL</span><figure class="browser"><div class="bbar"><i></i><i></i><i></i></div><img alt="Page d'accueil actuelle de camion-avec-chauffeur.fr" decoding="async" height="642" src="images/page-d-accueil-actuelle-de-camion-avec.webp" width="1360"/></figure><figcaption>Beaucoup de texte, formulaire long (11 champs), aucune page pour les professionnels.</figcaption></div>
-<div><span class="ba-lab ba-ap">APRÈS · MA MAQUETTE</span><figure class="browser"><div class="bbar"><i></i><i></i><i></i></div><img alt="Maquette de la nouvelle page d'accueil pour camion-avec-chauffeur.fr" decoding="async" height="1529" loading="lazy" src="images/maquette-de-la-nouvelle-page-d-accueil.webp" width="1366"/></figure><figcaption>Message clair, formulaire court (6 champs), onglet dédié aux professionnels.</figcaption></div>
+<div class="ba-intro"><h2>Avant / Après</h2><p>Faites glisser le curseur pour comparer le site actuel du client et ma maquette de la nouvelle page d'accueil : devis en 1 minute avec choix particulier / professionnel, arguments clés visibles dès l'arrivée et texte optimisé pour le mot-clé « location camion avec chauffeur ».</p></div>
+<div class="slider" id="ba-slider">
+<img alt="Page d'accueil actuelle de camion-avec-chauffeur.fr" decoding="async" height="642" src="images/page-d-accueil-actuelle-de-camion-avec.webp" width="1360"/>
+<img alt="Maquette de la nouvelle page d'accueil pour camion-avec-chauffeur.fr" class="after" decoding="async" height="1529" loading="lazy" src="images/maquette-de-la-nouvelle-page-d-accueil.webp" width="1366"/>
+<span class="ba-lab ba-av tag l">AVANT</span><span class="ba-lab ba-ap tag r">APRÈS</span>
+<div class="bar"></div><div aria-hidden="true" class="knob">⇆</div>
+<input aria-label="Comparer avant et après : faites glisser" max="100" min="0" type="range" value="50"/>
 </div>
+<div class="ba-caps"><p><b>Avant :</b> beaucoup de texte, formulaire long (11 champs), aucune page pour les professionnels.</p><p><b>Après :</b> message clair, formulaire court (6 champs), onglet dédié aux professionnels.</p></div>
 <div class="pdetail">
 <div class="box"><h3>Le projet</h3><p>Dossier Digital Campus Paris pour un vrai client, via l'agence <b>A DISPO</b> : un loueur de camion avec chauffeur en Île-de-France.</p><p style="margin-top:10px">Le constat : un site de 35 pages mal rangé, aucune page pour les professionnels et peu de visibilité sur Google. L'objectif : gagner en visibilité et attirer de nouveaux clients, notamment les entreprises.</p></div>
 <div class="box"><h3>Mon rôle</h3><ul class="dots">

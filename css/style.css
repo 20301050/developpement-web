@@ -526,4 +526,52 @@ nav.top ul a.navcv:hover{color:var(--amber);border-color:var(--amber)}
 .svc{grid-template-columns:repeat(2,minmax(0,1fr))!important}
 @media (max-width:700px){.svc{grid-template-columns:1fr!important}}
 
+/* === Version clients === */
+.offer .price{display:flex;align-items:baseline;gap:8px;flex-wrap:wrap;padding:12px 0 14px;border-bottom:1px solid #1E3352;margin-bottom:4px}
+.offer .price small{color:var(--mute);font-size:14px}
+.offer .price b{font-family:'Montserrat',system-ui,sans-serif;font-size:34px;line-height:1;color:#5CCBFF}
+.offer .price span{flex-basis:100%;color:var(--mute);font-size:14px}
+.price-note{text-align:center;color:var(--mute);font-size:15px;max-width:680px;margin:28px auto 0}
+
+.offers{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:20px}
+.offer{display:flex;flex-direction:column;gap:10px;padding:28px}
+.offer .ok{color:var(--amber);font-weight:700;font-size:12px;letter-spacing:.14em;text-transform:uppercase}
+.offer h3{font-size:24px;margin:0}
+.offer>p{color:#C8D3E3;margin:0}
+.offer ul{list-style:none;padding:0;margin:6px 0 0;display:flex;flex-direction:column;gap:8px}
+.offer li{padding-left:24px;position:relative;color:#DCE5F0;font-size:15px}
+.offer li::before{content:"✓";position:absolute;left:0;color:#5CCBFF;font-weight:800}
+.offer .ex{font-size:14px;color:var(--mute);margin-top:auto;padding-top:14px}
+.offer .ex a{color:#5CCBFF}
+.offer .btn{margin-top:12px;justify-content:center}
+.why{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:20px}
+.why .box{padding:24px}
+.why i{font-style:normal;font-size:28px;display:block;margin-bottom:10px}
+.why h3{font-size:18px;margin:0 0 6px}
+.why p{margin:0;color:#C8D3E3;font-size:15px}
+.faq{max-width:860px;margin:0 auto;display:flex;flex-direction:column;gap:12px}
+.faq details{background:rgba(13,25,45,.6);border:1px solid #1E3352;border-radius:14px;padding:0 22px}
+.faq details[open]{border-color:rgba(92,203,255,.5)}
+.faq summary{cursor:pointer;list-style:none;padding:18px 32px 18px 0;font-weight:700;color:var(--bone);position:relative}
+.faq summary::-webkit-details-marker{display:none}
+.faq summary::after{content:"+";position:absolute;right:0;top:50%;transform:translateY(-50%);font-size:24px;color:#5CCBFF;transition:transform .2s}
+.faq details[open] summary::after{transform:translateY(-50%) rotate(45deg)}
+.faq details p{margin:0 0 18px;color:#C8D3E3}
+nav.top ul a.navdevis{color:#050C18;background:linear-gradient(90deg,#5CCBFF,#3E7BFF);opacity:1;padding:8px 18px;min-height:0;border-radius:999px;font-weight:700;margin-left:6px}
+nav.top ul a.navdevis:hover{filter:brightness(1.1)}
+.slider{position:relative;aspect-ratio:1360/642;border-radius:14px;overflow:hidden;border:1px solid #1E3352;user-select:none;touch-action:pan-y;--pos:50%;background:#091526}
+.slider img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:top;display:block}
+.slider .after{clip-path:inset(0 0 0 var(--pos))}
+.slider .bar{position:absolute;top:0;bottom:0;left:var(--pos);width:3px;margin-left:-1.5px;background:#fff;box-shadow:0 0 12px rgba(0,0,0,.5);pointer-events:none}
+.slider .knob{position:absolute;top:50%;left:var(--pos);width:48px;height:48px;margin:-24px 0 0 -24px;border-radius:50%;background:#fff;color:#04202A;display:flex;align-items:center;justify-content:center;font-weight:800;font-size:18px;box-shadow:0 4px 16px rgba(0,0,0,.4);pointer-events:none}
+.slider input{position:absolute;inset:0;width:100%;height:100%;opacity:0;cursor:ew-resize;margin:0}
+.slider .tag{position:absolute;top:14px;z-index:2;pointer-events:none}
+.slider .tag.l{left:14px;background:rgba(5,12,24,.85);color:#fff;border-color:rgba(255,255,255,.3)}.slider .tag.r{right:14px}
+.ba-caps{display:grid;grid-template-columns:1fr 1fr;gap:28px;margin:14px 0 48px}
+.ba-caps p{font-size:14px;color:var(--mute);margin:0}.ba-caps p:last-child{text-align:right}
+.ba-full{text-align:center;margin:-32px 0 48px;font-size:14px}.ba-full a{color:#5CCBFF}
+@media (max-width:1000px){.why{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media (max-width:900px){.offers{grid-template-columns:1fr}}
+@media (max-width:600px){.why{grid-template-columns:1fr}.ba-caps{grid-template-columns:1fr;gap:8px}.ba-caps p:last-child{text-align:left}}
+
 :where(img[height]){height:auto}
