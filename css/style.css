@@ -575,3 +575,15 @@ nav.top ul a.navdevis:hover{filter:brightness(1.1)}
 @media (max-width:600px){.why{grid-template-columns:1fr}.ba-caps{grid-template-columns:1fr;gap:8px}.ba-caps p:last-child{text-align:left}}
 
 :where(img[height]){height:auto}
+
+/* Bouton de langue FR / PL / EN */
+.lang{display:flex;gap:4px;padding:4px;border:1px solid #2A4670;border-radius:999px;background:rgba(4,10,22,.6)}
+.lang button{font:600 13px/1 'Manrope',system-ui,sans-serif;letter-spacing:.06em;color:var(--mute);background:none;border:0;border-radius:999px;padding:8px 11px;cursor:pointer;transition:color .2s,background .2s}
+.lang button:hover{color:var(--bone)}
+.lang button[aria-pressed="true"]{background:#5CCBFF;color:#031630}
+nav.top .wrap{gap:16px}nav.top ul{margin-left:auto}
+.lang{flex:none}.lang button{padding:7px 9px;font-size:12px}
+nav.top ul a{white-space:nowrap}
+@media (min-width:901px) and (max-width:1360px){nav.top ul{gap:16px;font-size:14px}.logo-txt small{font-size:10px;max-width:24ch}nav.top ul a.navcv{padding:7px 12px}}
+@media (max-width:900px){.lang{margin-left:auto}.lang button{padding:9px 10px}nav.top .burger{order:3;flex:none}}
+@media (max-width:400px){.logo-txt b{font-size:15px}}
