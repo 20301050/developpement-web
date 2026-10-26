@@ -1,0 +1,92 @@
+{
+  "index.html": {
+    "pl": {"title": "Tworzenie stron internetowych · Freelancerka – web developerka",
+           "description": "Tworzenie stron internetowych, stron wizytówek i stron WordPress od 690 € dla sklepów i przedsiębiorców. Freelancerka – web developerka. Bezpłatna wycena."},
+    "en": {"title": "Website creation · Freelance web developer",
+           "description": "Website, showcase site and WordPress creation from €690 for shops and independent businesses. Freelance web developer. Free quote."}
+  },
+  "a-propos.html": {
+    "pl": {"title": "O mnie · Freelancerka – web developerka i kierowniczka projektów cyfrowych",
+           "description": "Freelancerka – web developerka: strony internetowe, strony wizytówki i WordPress, SEO i media społecznościowe. 20 lat w handlu. Francuski, polski, angielski."},
+    "en": {"title": "About · Freelance web developer and digital project manager",
+           "description": "Freelance web developer: websites, showcase sites and WordPress, SEO and social media. 20 years in retail. French, Polish, English."}
+  },
+  "contact.html": {
+    "pl": {"title": "Kontakt · Porozmawiajmy o Twojej stronie internetowej",
+           "description": "Strona wizytówka, strona WordPress czy przebudowa? Pierwsza rozmowa jest bezpłatna, potem indywidualna wycena bez zobowiązań."},
+    "en": {"title": "Contact · Let's talk about your website project",
+           "description": "A showcase site, a WordPress site or a redesign? A free first call to discuss your project, then a tailored, no-obligation quote."}
+  },
+  "mentions-legales.html": {
+    "pl": {"title": "Informacje prawne · Malgorzata Kieliszek",
+           "description": "Informacje prawne strony Malgorzaty Kieliszek, freelancerki – web developerki: wydawca, hosting, dane osobowe."},
+    "en": {"title": "Legal notice · Malgorzata Kieliszek",
+           "description": "Legal notice for the website of Malgorzata Kieliszek, freelance web developer: publisher, hosting, personal data."}
+  },
+  "merci.html": {
+    "pl": {"title": "Dziękuję · Wiadomość wysłana",
+           "description": "Dziękuję za wiadomość. Odpowiem najszybciej, jak to możliwe."},
+    "en": {"title": "Thank you · Request sent",
+           "description": "Thank you for your message. I will reply as soon as possible."}
+  },
+  "projet-camion-avec-chauffeur.html": {
+    "pl": {"title": "camion-avec-chauffeur.fr · Audyt SEO i strategia",
+           "description": "Prawdziwa analiza dla prawdziwego klienta: audyt SEO, nowa struktura strony i strategia pozyskiwania klientów dla wynajmu ciężarówek z kierowcą."},
+    "en": {"title": "camion-avec-chauffeur.fr · SEO audit and strategy",
+           "description": "A real analysis for a real client: SEO audit, new site structure and acquisition strategy for a truck-with-driver rental company."}
+  },
+  "projet-elan-site-ia.html": {
+    "pl": {"title": "Élan · Strona siłowni stworzona z AI",
+           "description": "Strona siłowni Élan: 8 podstron, wersja na komputer i telefon, stworzona z pomocą sztucznej inteligencji."},
+    "en": {"title": "Élan · Gym website built with AI",
+           "description": "Website for the Élan gym: 8 pages, desktop and mobile versions, built with artificial intelligence."}
+  },
+  "projet-futrak.html": {
+    "pl": {"title": "FUTRAK · Sklep internetowy z zimowymi akcesoriami",
+           "description": "Moja marka zimowych akcesoriów z futra: sklep internetowy po polsku na rynek polski, stworzony z AI."},
+    "en": {"title": "FUTRAK · Winter accessories e-commerce site",
+           "description": "My fur winter accessories brand: a Polish-language e-commerce site for the Polish market, built with AI."}
+  },
+  "projet-hdj-demenagements.html": {
+    "pl": {"title": "HDJ Déménagements · Strona firmy przeprowadzkowej Francja – Europa",
+           "description": "Strona Francja – Europa: strona główna, pakiety, ciężarówki, usługi i poradnik. Wkrótce online."},
+    "en": {"title": "HDJ Déménagements · Moving company website France – Europe",
+           "description": "France – Europe website: home, packages, trucks, services and guide. Coming soon online."}
+  },
+  "projet-le-comptoir-vert.html": {
+    "pl": {"title": "Le Comptoir Vert · Strona WordPress sklepu ekologicznego",
+           "description": "Strona one page dla ekologicznego sklepu z produktami na wagę w Neuilly-sur-Marne: godziny otwarcia, rodzaje produktów, sklep i jego partnerzy."},
+    "en": {"title": "Le Comptoir Vert · WordPress site for an organic grocery",
+           "description": "One-page site for a zero-waste organic grocery in Neuilly-sur-Marne: opening hours up front, product ranges, the shop and its partners."}
+  },
+  "projet-polskavoyage.html": {
+    "pl": {"title": "PolskaVoyage · Strona o podróżach po Polsce stworzona z AI",
+           "description": "Strona stworzona z AI, by pokazać mój kraj, Polskę: trzy turystyczne miasta, kuchnia i hotele."},
+    "en": {"title": "PolskaVoyage · Poland travel website built with AI",
+           "description": "A website built with AI to showcase my home country, Poland: three tourist cities, food and hotels to stay in."}
+  },
+  "projet-slave-hafta.html": {
+    "pl": {"title": "SLAVE HAFTA · Strona marki modowej kodowana ręcznie",
+           "description": "Moja marka modowa inspirowana słowiańskim haftem: strona kodowana ręcznie, wizualizacje stworzone z AI i media społecznościowe."},
+    "en": {"title": "SLAVE HAFTA · Hand-coded fashion brand website",
+           "description": "My fashion brand inspired by Slavic embroidery: hand-coded website, AI-made visuals and social media."}
+  },
+  "projet-space-game-jam.html": {
+    "pl": {"title": "Space Game Jam 99 · Strategia brand content",
+           "description": "Strategia brand content dla wydarzenia Fondation de l'Espace: big idea, persony i plan publikacji."},
+    "en": {"title": "Space Game Jam 99 · Brand content strategy",
+           "description": "Brand content strategy for a Fondation de l'Espace event: big idea, personas and editorial plan."}
+  },
+  "projet-studio-elan.html": {
+    "pl": {"title": "Studio Élan · Strona WordPress siłowni",
+           "description": "Siłownia: joga, pilates, boks, HIIT. Identyfikacja wizualna „Miejska energia”."},
+    "en": {"title": "Studio Élan · WordPress site for a gym",
+           "description": "Gym: yoga, Pilates, boxing, HIIT. “Urban energy” visual identity."}
+  },
+  "projets.html": {
+    "pl": {"title": "Projekty · Strony wizytówki, WordPress i audyty SEO",
+           "description": "Moje projekty: strony stworzone z AI, strony WordPress, sklepy internetowe moich marek i audyt SEO dla prawdziwego klienta."},
+    "en": {"title": "Web projects · Showcase sites, WordPress and SEO audits",
+           "description": "My web projects: AI-built sites, WordPress sites, e-commerce sites for my own brands and an SEO audit for a real client."}
+  }
+}

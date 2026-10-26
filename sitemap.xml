@@ -1,17 +1,255 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>https://20301050.github.io/developpement-web/</loc><lastmod>2026-10-26</lastmod></url>
-  <url><loc>https://20301050.github.io/developpement-web/a-propos.html</loc><lastmod>2026-09-29</lastmod></url>
-  <url><loc>https://20301050.github.io/developpement-web/projets.html</loc><lastmod>2026-09-29</lastmod></url>
-  <url><loc>https://20301050.github.io/developpement-web/projet-elan-site-ia.html</loc><lastmod>2026-09-29</lastmod></url>
-  <url><loc>https://20301050.github.io/developpement-web/projet-studio-elan.html</loc><lastmod>2026-09-29</lastmod></url>
-  <url><loc>https://20301050.github.io/developpement-web/projet-le-comptoir-vert.html</loc><lastmod>2026-09-29</lastmod></url>
-  <url><loc>https://20301050.github.io/developpement-web/projet-slave-hafta.html</loc><lastmod>2026-09-29</lastmod></url>
-  <url><loc>https://20301050.github.io/developpement-web/projet-futrak.html</loc><lastmod>2026-09-29</lastmod></url>
-  <url><loc>https://20301050.github.io/developpement-web/projet-polskavoyage.html</loc><lastmod>2026-09-29</lastmod></url>
-  <url><loc>https://20301050.github.io/developpement-web/projet-hdj-demenagements.html</loc><lastmod>2026-09-29</lastmod></url>
-  <url><loc>https://20301050.github.io/developpement-web/projet-camion-avec-chauffeur.html</loc><lastmod>2026-09-29</lastmod></url>
-  <url><loc>https://20301050.github.io/developpement-web/projet-space-game-jam.html</loc><lastmod>2026-09-29</lastmod></url>
-  <url><loc>https://20301050.github.io/developpement-web/contact.html</loc><lastmod>2026-09-29</lastmod></url>
-  <url><loc>https://20301050.github.io/developpement-web/mentions-legales.html</loc><lastmod>2026-10-26</lastmod></url>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url><loc>https://gocha-web.com/a-propos.html</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://gocha-web.com/a-propos.html"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://gocha-web.com/pl/a-propos.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://gocha-web.com/en/a-propos.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://gocha-web.com/a-propos.html"/>
+  </url>
+  <url><loc>https://gocha-web.com/pl/a-propos.html</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://gocha-web.com/a-propos.html"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://gocha-web.com/pl/a-propos.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://gocha-web.com/en/a-propos.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://gocha-web.com/a-propos.html"/>
+  </url>
+  <url><loc>https://gocha-web.com/en/a-propos.html</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://gocha-web.com/a-propos.html"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://gocha-web.com/pl/a-propos.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://gocha-web.com/en/a-propos.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://gocha-web.com/a-propos.html"/>
+  </url>
+  <url><loc>https://gocha-web.com/contact.html</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://gocha-web.com/contact.html"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://gocha-web.com/pl/contact.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://gocha-web.com/en/contact.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://gocha-web.com/contact.html"/>
+  </url>
+  <url><loc>https://gocha-web.com/pl/contact.html</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://gocha-web.com/contact.html"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://gocha-web.com/pl/contact.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://gocha-web.com/en/contact.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://gocha-web.com/contact.html"/>
+  </url>
+  <url><loc>https://gocha-web.com/en/contact.html</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://gocha-web.com/contact.html"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://gocha-web.com/pl/contact.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://gocha-web.com/en/contact.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://gocha-web.com/contact.html"/>
+  </url>
+  <url><loc>https://gocha-web.com/</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://gocha-web.com/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://gocha-web.com/pl/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://gocha-web.com/en/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://gocha-web.com/"/>
+  </url>
+  <url><loc>https://gocha-web.com/pl/</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://gocha-web.com/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://gocha-web.com/pl/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://gocha-web.com/en/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://gocha-web.com/"/>
+  </url>
+  <url><loc>https://gocha-web.com/en/</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://gocha-web.com/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://gocha-web.com/pl/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://gocha-web.com/en/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://gocha-web.com/"/>
+  </url>
+  <url><loc>https://gocha-web.com/mentions-legales.html</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://gocha-web.com/mentions-legales.html"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://gocha-web.com/pl/mentions-legales.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://gocha-web.com/en/mentions-legales.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://gocha-web.com/mentions-legales.html"/>
+  </url>
+  <url><loc>https://gocha-web.com/pl/mentions-legales.html</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://gocha-web.com/mentions-legales.html"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://gocha-web.com/pl/mentions-legales.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://gocha-web.com/en/mentions-legales.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://gocha-web.com/mentions-legales.html"/>
+  </url>
+  <url><loc>https://gocha-web.com/en/mentions-legales.html</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://gocha-web.com/mentions-legales.html"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://gocha-web.com/pl/mentions-legales.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://gocha-web.com/en/mentions-legales.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://gocha-web.com/mentions-legales.html"/>
+  </url>
+  <url><loc>https://gocha-web.com/projet-camion-avec-chauffeur.html</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://gocha-web.com/projet-camion-avec-chauffeur.html"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://gocha-web.com/pl/projet-camion-avec-chauffeur.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://gocha-web.com/en/projet-camion-avec-chauffeur.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://gocha-web.com/projet-camion-avec-chauffeur.html"/>
+  </url>
+  <url><loc>https://gocha-web.com/pl/projet-camion-avec-chauffeur.html</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://gocha-web.com/projet-camion-avec-chauffeur.html"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://gocha-web.com/pl/projet-camion-avec-chauffeur.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://gocha-web.com/en/projet-camion-avec-chauffeur.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://gocha-web.com/projet-camion-avec-chauffeur.html"/>
+  </url>
+  <url><loc>https://gocha-web.com/en/projet-camion-avec-chauffeur.html</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://gocha-web.com/projet-camion-avec-chauffeur.html"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://gocha-web.com/pl/projet-camion-avec-chauffeur.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://gocha-web.com/en/projet-camion-avec-chauffeur.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://gocha-web.com/projet-camion-avec-chauffeur.html"/>
+  </url>
+  <url><loc>https://gocha-web.com/projet-elan-site-ia.html</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://gocha-web.com/projet-elan-site-ia.html"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://gocha-web.com/pl/projet-elan-site-ia.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://gocha-web.com/en/projet-elan-site-ia.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://gocha-web.com/projet-elan-site-ia.html"/>
+  </url>
+  <url><loc>https://gocha-web.com/pl/projet-elan-site-ia.html</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://gocha-web.com/projet-elan-site-ia.html"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://gocha-web.com/pl/projet-elan-site-ia.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://gocha-web.com/en/projet-elan-site-ia.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://gocha-web.com/projet-elan-site-ia.html"/>
+  </url>
+  <url><loc>https://gocha-web.com/en/projet-elan-site-ia.html</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://gocha-web.com/projet-elan-site-ia.html"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://gocha-web.com/pl/projet-elan-site-ia.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://gocha-web.com/en/projet-elan-site-ia.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://gocha-web.com/projet-elan-site-ia.html"/>
+  </url>
+  <url><loc>https://gocha-web.com/projet-futrak.html</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://gocha-web.com/projet-futrak.html"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://gocha-web.com/pl/projet-futrak.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://gocha-web.com/en/projet-futrak.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://gocha-web.com/projet-futrak.html"/>
+  </url>
+  <url><loc>https://gocha-web.com/pl/projet-futrak.html</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://gocha-web.com/projet-futrak.html"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://gocha-web.com/pl/projet-futrak.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://gocha-web.com/en/projet-futrak.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://gocha-web.com/projet-futrak.html"/>
+  </url>
+  <url><loc>https://gocha-web.com/en/projet-futrak.html</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://gocha-web.com/projet-futrak.html"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://gocha-web.com/pl/projet-futrak.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://gocha-web.com/en/projet-futrak.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://gocha-web.com/projet-futrak.html"/>
+  </url>
+  <url><loc>https://gocha-web.com/projet-hdj-demenagements.html</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://gocha-web.com/projet-hdj-demenagements.html"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://gocha-web.com/pl/projet-hdj-demenagements.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://gocha-web.com/en/projet-hdj-demenagements.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://gocha-web.com/projet-hdj-demenagements.html"/>
+  </url>
+  <url><loc>https://gocha-web.com/pl/projet-hdj-demenagements.html</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://gocha-web.com/projet-hdj-demenagements.html"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://gocha-web.com/pl/projet-hdj-demenagements.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://gocha-web.com/en/projet-hdj-demenagements.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://gocha-web.com/projet-hdj-demenagements.html"/>
+  </url>
+  <url><loc>https://gocha-web.com/en/projet-hdj-demenagements.html</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://gocha-web.com/projet-hdj-demenagements.html"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://gocha-web.com/pl/projet-hdj-demenagements.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://gocha-web.com/en/projet-hdj-demenagements.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://gocha-web.com/projet-hdj-demenagements.html"/>
+  </url>
+  <url><loc>https://gocha-web.com/projet-le-comptoir-vert.html</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://gocha-web.com/projet-le-comptoir-vert.html"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://gocha-web.com/pl/projet-le-comptoir-vert.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://gocha-web.com/en/projet-le-comptoir-vert.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://gocha-web.com/projet-le-comptoir-vert.html"/>
+  </url>
+  <url><loc>https://gocha-web.com/pl/projet-le-comptoir-vert.html</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://gocha-web.com/projet-le-comptoir-vert.html"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://gocha-web.com/pl/projet-le-comptoir-vert.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://gocha-web.com/en/projet-le-comptoir-vert.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://gocha-web.com/projet-le-comptoir-vert.html"/>
+  </url>
+  <url><loc>https://gocha-web.com/en/projet-le-comptoir-vert.html</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://gocha-web.com/projet-le-comptoir-vert.html"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://gocha-web.com/pl/projet-le-comptoir-vert.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://gocha-web.com/en/projet-le-comptoir-vert.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://gocha-web.com/projet-le-comptoir-vert.html"/>
+  </url>
+  <url><loc>https://gocha-web.com/projet-polskavoyage.html</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://gocha-web.com/projet-polskavoyage.html"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://gocha-web.com/pl/projet-polskavoyage.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://gocha-web.com/en/projet-polskavoyage.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://gocha-web.com/projet-polskavoyage.html"/>
+  </url>
+  <url><loc>https://gocha-web.com/pl/projet-polskavoyage.html</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://gocha-web.com/projet-polskavoyage.html"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://gocha-web.com/pl/projet-polskavoyage.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://gocha-web.com/en/projet-polskavoyage.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://gocha-web.com/projet-polskavoyage.html"/>
+  </url>
+  <url><loc>https://gocha-web.com/en/projet-polskavoyage.html</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://gocha-web.com/projet-polskavoyage.html"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://gocha-web.com/pl/projet-polskavoyage.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://gocha-web.com/en/projet-polskavoyage.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://gocha-web.com/projet-polskavoyage.html"/>
+  </url>
+  <url><loc>https://gocha-web.com/projet-slave-hafta.html</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://gocha-web.com/projet-slave-hafta.html"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://gocha-web.com/pl/projet-slave-hafta.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://gocha-web.com/en/projet-slave-hafta.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://gocha-web.com/projet-slave-hafta.html"/>
+  </url>
+  <url><loc>https://gocha-web.com/pl/projet-slave-hafta.html</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://gocha-web.com/projet-slave-hafta.html"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://gocha-web.com/pl/projet-slave-hafta.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://gocha-web.com/en/projet-slave-hafta.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://gocha-web.com/projet-slave-hafta.html"/>
+  </url>
+  <url><loc>https://gocha-web.com/en/projet-slave-hafta.html</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://gocha-web.com/projet-slave-hafta.html"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://gocha-web.com/pl/projet-slave-hafta.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://gocha-web.com/en/projet-slave-hafta.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://gocha-web.com/projet-slave-hafta.html"/>
+  </url>
+  <url><loc>https://gocha-web.com/projet-space-game-jam.html</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://gocha-web.com/projet-space-game-jam.html"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://gocha-web.com/pl/projet-space-game-jam.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://gocha-web.com/en/projet-space-game-jam.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://gocha-web.com/projet-space-game-jam.html"/>
+  </url>
+  <url><loc>https://gocha-web.com/pl/projet-space-game-jam.html</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://gocha-web.com/projet-space-game-jam.html"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://gocha-web.com/pl/projet-space-game-jam.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://gocha-web.com/en/projet-space-game-jam.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://gocha-web.com/projet-space-game-jam.html"/>
+  </url>
+  <url><loc>https://gocha-web.com/en/projet-space-game-jam.html</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://gocha-web.com/projet-space-game-jam.html"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://gocha-web.com/pl/projet-space-game-jam.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://gocha-web.com/en/projet-space-game-jam.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://gocha-web.com/projet-space-game-jam.html"/>
+  </url>
+  <url><loc>https://gocha-web.com/projet-studio-elan.html</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://gocha-web.com/projet-studio-elan.html"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://gocha-web.com/pl/projet-studio-elan.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://gocha-web.com/en/projet-studio-elan.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://gocha-web.com/projet-studio-elan.html"/>
+  </url>
+  <url><loc>https://gocha-web.com/pl/projet-studio-elan.html</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://gocha-web.com/projet-studio-elan.html"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://gocha-web.com/pl/projet-studio-elan.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://gocha-web.com/en/projet-studio-elan.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://gocha-web.com/projet-studio-elan.html"/>
+  </url>
+  <url><loc>https://gocha-web.com/en/projet-studio-elan.html</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://gocha-web.com/projet-studio-elan.html"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://gocha-web.com/pl/projet-studio-elan.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://gocha-web.com/en/projet-studio-elan.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://gocha-web.com/projet-studio-elan.html"/>
+  </url>
+  <url><loc>https://gocha-web.com/projets.html</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://gocha-web.com/projets.html"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://gocha-web.com/pl/projets.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://gocha-web.com/en/projets.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://gocha-web.com/projets.html"/>
+  </url>
+  <url><loc>https://gocha-web.com/pl/projets.html</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://gocha-web.com/projets.html"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://gocha-web.com/pl/projets.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://gocha-web.com/en/projets.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://gocha-web.com/projets.html"/>
+  </url>
+  <url><loc>https://gocha-web.com/en/projets.html</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://gocha-web.com/projets.html"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://gocha-web.com/pl/projets.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://gocha-web.com/en/projets.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://gocha-web.com/projets.html"/>
+  </url>
 </urlset>
