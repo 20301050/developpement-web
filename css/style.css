@@ -587,3 +587,6 @@ nav.top ul a{white-space:nowrap}
 @media (min-width:901px) and (max-width:1360px){nav.top ul{gap:16px;font-size:14px}.logo-txt small{font-size:10px;max-width:24ch}nav.top ul a.navcv{padding:7px 12px}}
 @media (max-width:900px){.lang{margin-left:auto}.lang button{padding:9px 10px}nav.top .burger{order:3;flex:none}}
 @media (max-width:400px){.logo-txt b{font-size:15px}}
+
+.map{margin:36px auto 0;max-width:900px}.map iframe{display:block;width:100%;height:320px;border:1px solid var(--line);border-radius:16px;filter:grayscale(.2)}.map-cap{text-align:center;color:var(--mute);font-size:15px;margin:14px 0 0}
+@media (max-width:600px){.map iframe{height:240px}}
