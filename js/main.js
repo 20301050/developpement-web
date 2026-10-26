@@ -61,3 +61,9 @@ if(!matchMedia("(prefers-reduced-motion: reduce)").matches)auto();});
 
 (function(){var r=document.getElementById("ba-slider");if(!r)return;var i=r.querySelector("input");
 function set(){r.style.setProperty("--pos",i.value+"%");}i.addEventListener("input",set);set();})();
+
+(function(){var b=document.querySelector(".vidbtn"),v=document.querySelectorAll("video[data-tiger]");if(!b||!v.length)return;
+function set(p){v.forEach(function(x){try{p?x.pause():x.play();}catch(e){}});b.setAttribute("aria-pressed",p?"true":"false");}
+b.addEventListener("click",function(){set(b.getAttribute("aria-pressed")!=="true");});
+if(window.matchMedia&&matchMedia("(prefers-reduced-motion: reduce)").matches){v.forEach(function(x){x.removeAttribute("autoplay");});set(true);}
+})();

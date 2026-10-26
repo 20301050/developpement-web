@@ -598,3 +598,15 @@ nav.top ul a{white-space:nowrap}
 .legal-txt{max-width:760px}.legal-txt h2{font-size:22px;margin:30px 0 10px}.legal-txt p{color:#C8D3E3;margin:0 0 12px}.legal-txt a{color:#5CCBFF}
 
 #devis{scroll-margin-top:110px}
+
+footer h2.fh{margin:0 0 12px;color:var(--bone);font-size:15px}
+.sr-only{position:absolute!important;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}
+.skip{position:absolute;left:16px;top:-60px;z-index:100;background:#5CCBFF;color:#04080F;font-weight:700;padding:10px 16px;border-radius:10px;text-decoration:none;transition:top .2s}
+.skip:focus{top:12px}
+main:focus{outline:none}
+.mq-scroll:focus-visible{outline:2px solid var(--amber);outline-offset:2px}
+.hero{position:relative}
+.vidbtn{position:absolute;right:16px;bottom:16px;z-index:5;width:44px;height:44px;border-radius:50%;border:1px solid #365A88;background:rgba(4,8,15,.7);color:#F2EBDD;display:grid;place-items:center;cursor:pointer}
+.vidbtn svg{width:18px;height:18px;fill:currentColor}.vidbtn .i-play{display:none}
+.vidbtn[aria-pressed="true"] .i-play{display:block}.vidbtn[aria-pressed="true"] .i-pause{display:none}
+.vidbtn:hover{border-color:#5CCBFF}
