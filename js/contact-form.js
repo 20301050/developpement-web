@@ -9,7 +9,7 @@ var T={
  pl:{sending:"Wysyłanie…",err:"Nie udało się wysłać wiadomości. Spróbuj ponownie lub napisz bezpośrednio na "},
  en:{sending:"Sending…",err:"Your message could not be sent. Please try again, or email me directly at "}
 }[L]||{sending:"Envoi en cours…",err:"Le message n'a pas pu partir. Écrivez-moi à "};
-var TO="gochakicia80@gmail.com";
+var TO="gochakicia80@gmail.com", SHOW="contact@gocha-web.com";
 form.addEventListener("submit",function(e){
  e.preventDefault();
  if(form.checkValidity&&!form.checkValidity()){form.reportValidity&&form.reportValidity();return;}
@@ -34,7 +34,7 @@ form.addEventListener("submit",function(e){
   var msg=form.querySelector(".form-err");
   if(!msg){msg=document.createElement("p");msg.className="note form-err";msg.setAttribute("role","alert");msg.style.fontWeight="600";form.appendChild(msg);}
   msg.innerHTML="";msg.appendChild(document.createTextNode(T.err));
-  var a=document.createElement("a");a.href="mailto:"+TO;a.textContent=TO;msg.appendChild(a);msg.appendChild(document.createTextNode("."));
+  var a=document.createElement("a");a.href="mailto:"+SHOW;a.textContent=SHOW;msg.appendChild(a);msg.appendChild(document.createTextNode("."));
  });
 });
 })();
