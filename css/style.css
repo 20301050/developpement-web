@@ -571,7 +571,8 @@ nav.top ul a.navdevis:hover{filter:brightness(1.1)}
 .ba-caps p{font-size:14px;color:var(--mute);margin:0}.ba-caps p:last-child{text-align:right}
 .ba-full{text-align:center;margin:-32px 0 48px;font-size:14px}.ba-full a{color:#5CCBFF}
 @media (max-width:1000px){.why{grid-template-columns:repeat(2,minmax(0,1fr))}}
-@media (max-width:900px){.offers{grid-template-columns:1fr}}
+.offers>.offer:last-child:nth-child(odd){grid-column:1/-1;justify-self:center;width:calc(50% - 10px)}
+@media (max-width:900px){.offers{grid-template-columns:1fr}.offers>.offer:last-child:nth-child(odd){width:auto;justify-self:stretch}}
 @media (max-width:600px){.why{grid-template-columns:1fr}.ba-caps{grid-template-columns:1fr;gap:8px}.ba-caps p:last-child{text-align:left}}
 
 :where(img[height]){height:auto}
