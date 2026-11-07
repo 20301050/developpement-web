@@ -103,10 +103,10 @@ if(c==="yes")gochaLoadGA();})();</script>
 </div></div>
 <script>(function(){var c=null;try{c=localStorage.getItem("gocha-consent");}catch(e){}if(c)return;
 var L=(document.documentElement.lang||"fr").slice(0,2),b=document.getElementById("gocha-cookies");if(!b)return;
-var T={fr:["Je souhaite mesurer la fréquentation du site avec Google Analytics (statistiques anonymes).","En savoir plus","Refuser","Accepter","/mentions-legales.html"],
-pl:["Chcę mierzyć ruch na stronie za pomocą Google Analytics (anonimowe statystyki).","Więcej informacji","Odrzuć","Akceptuję","/pl/mentions-legales.html"],
-en:["I would like to measure visits to this site with Google Analytics (anonymous statistics).","Learn more","Decline","Accept","/en/mentions-legales.html"]}[L]||null;
-if(!T)T=["Je souhaite mesurer la fréquentation du site avec Google Analytics (statistiques anonymes).","En savoir plus","Refuser","Accepter","/mentions-legales.html"];
+var T={fr:["<strong>🍪 Cookies</strong><br>Ce site utilise des cookies de mesure d'audience (Google Analytics) pour savoir combien de personnes le visitent. Aucun cookie publicitaire.","En savoir plus","Tout refuser","Accepter les cookies","/mentions-legales.html"],
+pl:["<strong>🍪 Pliki cookie</strong><br>Ta strona używa plików cookie do pomiaru ruchu (Google Analytics), aby wiedzieć, ile osób ją odwiedza. Bez reklamowych plików cookie.","Więcej informacji","Odrzuć wszystkie","Akceptuję cookie","/pl/mentions-legales.html"],
+en:["<strong>🍪 Cookies</strong><br>This site uses audience measurement cookies (Google Analytics) to know how many people visit it. No advertising cookies.","Learn more","Reject all","Accept cookies","/en/mentions-legales.html"]}[L]||null;
+if(!T)T=["<strong>🍪 Cookies</strong><br>Ce site utilise des cookies de mesure d'audience (Google Analytics) pour savoir combien de personnes le visitent. Aucun cookie publicitaire.","En savoir plus","Tout refuser","Accepter les cookies","/mentions-legales.html"];
 document.getElementById("gocha-ck-t").innerHTML=T[0]+' <a href="'+T[4]+'" style="color:#9cc9ff">'+T[1]+'</a>';
 document.getElementById("gocha-ck-no").textContent=T[2];document.getElementById("gocha-ck-yes").textContent=T[3];
 function set(v){try{localStorage.setItem("gocha-consent",v);}catch(e){}b.style.display="none";if(v==="yes")window.gochaLoadGA&&gochaLoadGA();}
