@@ -1,0 +1,4 @@
+Contact: mailto:contact@gocha-web.com
+Expires: 2027-11-07T00:00:00.000Z
+Preferred-Languages: fr, pl, en
+Canonical: https://gocha-web.com/.well-known/security.txt
