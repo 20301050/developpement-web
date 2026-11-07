@@ -95,22 +95,6 @@ if(c==="yes")gochaLoadGA();})();</script>
 </footer>
 <script defer="" src="../js/main.js"></script>
 <script defer="" src="../js/lang.js"></script>
-<div id="gocha-cookies" role="dialog" aria-live="polite" aria-label="Cookies" style="display:none;position:fixed;left:16px;right:16px;bottom:16px;z-index:9999;max-width:560px;margin:0 auto;background:#0b1020;color:#fff;border:1px solid rgba(90,170,255,.45);border-radius:14px;padding:16px 18px;box-shadow:0 8px 30px rgba(0,0,0,.45);font:14px/1.5 system-ui,sans-serif">
-<p id="gocha-ck-t" style="margin:0 0 12px"></p>
-<div style="display:flex;gap:10px;flex-wrap:wrap;justify-content:flex-end">
-<button type="button" id="gocha-ck-no" style="cursor:pointer;background:transparent;color:#fff;border:1px solid #fff;border-radius:999px;padding:8px 18px;font:inherit"></button>
-<button type="button" id="gocha-ck-yes" style="cursor:pointer;background:#2f8cff;color:#fff;border:0;border-radius:999px;padding:8px 18px;font:inherit;font-weight:700"></button>
-</div></div>
-<script>(function(){var c=null;try{c=localStorage.getItem("gocha-consent");}catch(e){}if(c)return;
-var L=(document.documentElement.lang||"fr").slice(0,2),b=document.getElementById("gocha-cookies");if(!b)return;
-var T={fr:["<strong>🍪 Cookies</strong><br>Ce site utilise des cookies de mesure d'audience (Google Analytics) pour savoir combien de personnes le visitent. Aucun cookie publicitaire.","En savoir plus","Tout refuser","Accepter les cookies","/mentions-legales.html"],
-pl:["<strong>🍪 Pliki cookie</strong><br>Ta strona używa plików cookie do pomiaru ruchu (Google Analytics), aby wiedzieć, ile osób ją odwiedza. Bez reklamowych plików cookie.","Więcej informacji","Odrzuć wszystkie","Akceptuję cookie","/pl/mentions-legales.html"],
-en:["<strong>🍪 Cookies</strong><br>This site uses audience measurement cookies (Google Analytics) to know how many people visit it. No advertising cookies.","Learn more","Reject all","Accept cookies","/en/mentions-legales.html"]}[L]||null;
-if(!T)T=["<strong>🍪 Cookies</strong><br>Ce site utilise des cookies de mesure d'audience (Google Analytics) pour savoir combien de personnes le visitent. Aucun cookie publicitaire.","En savoir plus","Tout refuser","Accepter les cookies","/mentions-legales.html"];
-document.getElementById("gocha-ck-t").innerHTML=T[0]+' <a href="'+T[4]+'" style="color:#9cc9ff">'+T[1]+'</a>';
-document.getElementById("gocha-ck-no").textContent=T[2];document.getElementById("gocha-ck-yes").textContent=T[3];
-function set(v){try{localStorage.setItem("gocha-consent",v);}catch(e){}b.style.display="none";if(v==="yes")window.gochaLoadGA&&gochaLoadGA();}
-document.getElementById("gocha-ck-no").onclick=function(){set("no");};document.getElementById("gocha-ck-yes").onclick=function(){set("yes");};
-b.style.display="block";})();</script>
+<script src="/js/cookies.js" defer data-ck-key="gocha-consent" data-ck-load="gochaLoadGA" data-ck-accent="#2f8cff" data-ck-bg="#0b1020" data-ck-policy-fr="/mentions-legales.html" data-ck-policy-pl="/pl/mentions-legales.html" data-ck-policy-en="/en/mentions-legales.html"></script>
 </body>
 </html>
