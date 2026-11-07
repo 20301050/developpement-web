@@ -26,7 +26,13 @@ form.addEventListener("submit",function(e){
  fetch("https://formsubmit.co/ajax/"+TO,{method:"POST",headers:{"Content-Type":"application/json","Accept":"application/json"},body:JSON.stringify(data)})
  .then(function(r){return r.json();})
  .then(function(j){
-  if(j&&(j.success===true||j.success==="true")){window.location.href=next||"merci.html";}
+  if(j&&(j.success===true||j.success==="true")){
+   var go=function(){if(go.done)return;go.done=1;window.location.href=next||"merci.html";};
+   if(typeof window.gtag==="function"){
+    window.gtag("event","generate_lead",{form_id:"devis",page_language:L,event_callback:go});
+    setTimeout(go,1200);
+   }else{go();}
+  }
   else{throw new Error((j&&j.message)||"error");}
  })
  .catch(function(){
